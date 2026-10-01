@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CYBORG-X — a futuristic cybernetic technology landing page." />
+  <title>CYBORG-X | Beyond Human</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Cyborg-X home">
+      <span class="brand-mark">CX</span>
+      <span>CYBORG<span>-X</span></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="#home">01 // HOME</a>
+      <a href="#systems">02 // SYSTEMS</a>
+      <a href="#protocol">03 // PROTOCOL</a>
+      <a href="#contact">04 // CONTACT</a>
+    </nav>
+    <a class="nav-cta" href="#contact">ACCESS <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="grid-bg"></div>
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> SYSTEM ONLINE // YEAR 2088</p>
+        <h1>BEYOND<br><span>HUMAN.</span></h1>
+        <p class="hero-copy">
+          Intelligence engineered for the next evolution. CYBORG-X merges
+          synthetic cognition, adaptive hardware and human potential.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#systems">EXPLORE SYSTEM <span>→</span></a>
+          <a class="btn btn-ghost" href="#protocol">VIEW PROTOCOL</a>
+        </div>
+      </div>
+
+      <div class="cyborg-core reveal">
+        <div class="core-ring ring-outer"></div>
+        <div class="core-ring ring-mid"></div>
+        <div class="core-ring ring-inner"></div>
+        <div class="core-center">
+          <div class="core-eye"></div>
+          <span>CX-01</span>
+        </div>
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="data-chip chip-a">NEURAL<br><strong>99.8%</strong></div>
+        <div class="data-chip chip-b">SYNC<br><strong>1.2ms</strong></div>
+        <div class="data-chip chip-c">POWER<br><strong>87%</strong></div>
+      </div>
+
+      <div class="scroll-indicator"><span></span> SCROLL TO INITIALIZE</div>
+    </section>
+
+    <section class="systems section" id="systems">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">02 // SYSTEMS</p>
+          <h2>ENGINEERED<br><span>TO EVOLVE.</span></h2>
+        </div>
+        <p class="section-intro">
+          Three integrated systems. One adaptive intelligence layer designed
+          to extend what humans can do.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="system-card reveal">
+          <div class="card-number">01</div>
+          <div class="icon">◈</div>
+          <h3>NEURAL LINK</h3>
+          <p>Ultra-low latency cognitive interface built for seamless human-machine communication.</p>
+          <div class="card-line"></div>
+          <span class="card-tag">COGNITION</span>
+        </article>
+
+        <article class="system-card featured reveal">
+          <div class="card-number">02</div>
+          <div class="icon">⌬</div>
+          <h3>ADAPTIVE CORE</h3>
+          <p>Self-optimizing architecture that learns from every interaction and evolves in real time.</p>
+          <div class="card-line"></div>
+          <span class="card-tag">INTELLIGENCE</span>
+        </article>
+
+        <article class="system-card reveal">
+          <div class="card-number">03</div>
+          <div class="icon">⟡</div>
+          <h3>SYNTHETIC VISION</h3>
+          <p>Multi-spectrum perception that turns complex environments into actionable intelligence.</p>
+          <div class="card-line"></div>
+          <span class="card-tag">PERCEPTION</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="protocol section" id="protocol">
+      <div class="protocol-visual reveal">
+        <div class="hex-grid"></div>
+        <div class="scanner"></div>
+        <div class="target">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div class="coordinate">X: 44.192 // Y: 08.731 // Z: 91.004</div>
+      </div>
+
+      <div class="protocol-copy reveal">
+        <p class="eyebrow">03 // PROTOCOL</p>
+        <h2>THE HUMAN<br><span>UPGRADE.</span></h2>
+        <p>
+          CYBORG-X is not about replacing humanity. It is about amplifying it.
+          Our architecture connects biological intuition with machine precision
+          to create a new class of capability.
+        </p>
+
+        <div class="metrics">
+          <div><strong data-count="99">0</strong><span>% SYNC RATE</span></div>
+          <div><strong data-count="12">0</strong><span>ms RESPONSE</span></div>
+          <div><strong data-count="24">0</strong><span>/7 UPTIME</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">04 // ACCESS</p>
+        <h2>READY TO<br><span>EVOLVE?</span></h2>
+        <p>Enter the next generation of human-machine collaboration.</p>
+        <button class="btn btn-primary" id="accessBtn">REQUEST ACCESS <span>→</span></button>
+        <div class="terminal" id="terminal" aria-live="polite">
+          <span class="terminal-prompt">></span> awaiting authorization...
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© Done By EswarKethavarapu</div>  
+    <div>BUILT FOR THE NEXT HUMAN ERA <span>◆</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
